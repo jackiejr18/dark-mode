@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'GrapeSoda';
+	src: url(Fonts/GrapeSoda_2.ttf) format('trutype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'GrapeSoda';
+	box-sizing: border-box;
+}
