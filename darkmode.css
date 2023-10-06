@@ -17,6 +17,11 @@
 	--secondary-color: #212121; 
 }
 
+.dark-theme {
+	--primary-color: #000106;
+	--secondary-color: #fff;
+}
+
 #icon {
 	width: 30px;
 	cursor: pointer;
@@ -84,7 +89,7 @@ span {
 }
 
 .info a {
-	background: #212121;
+	background: var(--secondary-color);
 	padding: 10px 18px;
 	text-decoration: none;
 	color: var(--primary-color);
